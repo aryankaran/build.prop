@@ -36,7 +36,7 @@ jobs:
     strategy:
       matrix:
         # Devices to build props for
-        device_name: [comet_beta, komodo_beta-15, caiman_beta, tokay_beta-15, akita_beta-15, husky_beta-15, shiba_beta-15, cheetah, raven_beta-15, redfin]
+        device_name: [comet, komodo_beta-15, caiman, tokay_beta-15, akita_beta-15, husky_beta-15, shiba_beta-15, cheetah, raven_beta-15, redfin]
 
     runs-on: ubuntu-24.04
     steps:
