@@ -16,7 +16,7 @@ jobs:
       - name: Determine tag name
         id: get_tag_name
         run: |
-          echo "tag_name=$(date '+%Y%m%dT%T')" >> $GITHUB_OUTPUT
+          echo "tag_name=$(date '+%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
           echo "friendly_tag_name=$(date '+%Y-%m-%d-%T')" >> $GITHUB_OUTPUT
 
       - name: Create a release
